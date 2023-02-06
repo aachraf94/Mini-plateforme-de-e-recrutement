@@ -1,0 +1,20 @@
+Layout Annonceur
+/*
+    This is the layout 
+    ID		NomAnnonceur			Adresse			Mail		Num_tel			Nbr_Annonce
+    integer		string(Nom,Prenom1,Prenom2)		string(str1_str2_str3...)	string		string(05_55_55_55_55)	integer
+*/
+
+Layout Offre
+/*
+    This is the layout 
+    ID		NomAnnonceur		NomPoste			Diplome	ExpYear		List_Compet ( Not normalized )		Langues		Date_Pub(integer)		Delai_Condid(integer)
+    integer		string(Nom,Prenom1,Prenom2)	string(str1_str2_str3...)	integer	integer		string(ex : "abcd" "hgdb" "q")		integer		dd mm yyyy 		dd mm yyyy
+*/
+
+Layout Demande
+/*
+    This is the layout
+    ID		Nom_demandur			Diplome		ExpYear		Langues		List_Compet ( Not normalized )		Date_Pub
+    integer		string(Nom,Prenom1,Prenom2)		integer		integer		integer		string(ex : "abcd" "hgdb" "q")		dd mm yyyy
+*/
